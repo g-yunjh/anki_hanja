@@ -1,4 +1,5 @@
 import csv
+import os
 
 def load_hanja_dict_from_csv(filename):
     """
@@ -47,3 +48,5 @@ if __name__ == "__main__":
         process_input(hanja_dict)
     else:
         print("한자 사전을 로드할 수 없습니다.")
+
+os.system("pause")
